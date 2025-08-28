@@ -1,6 +1,6 @@
 # Drivers' License Scanner Integration Guide
 
-In this guide, we'll walk you through developing a React Native application that can scan drivers' licenses using the [`Foundational APIs`](https://dynamsoft.github.io/barcode-reader-react-native-samples/APIReferences/dynamsoft-capture-vision-react-native).
+In this guide, we'll walk you through developing a Flutter application that can scan drivers' licenses using the [`Foundational APIs`](https://pub.dev/documentation/dynamsoft_capture_vision_flutter/latest/).
 
 ## Supported Drivers' License Types
 

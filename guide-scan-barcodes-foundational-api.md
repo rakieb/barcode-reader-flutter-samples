@@ -1,6 +1,6 @@
 # Foundational Barcode Reader Integration Guide
 
-In this guide, we will guide you to develop a barcode scanning app with the [`Foundational APIs`](https://dynamsoft.github.io/barcode-reader-react-native-samples/APIReferences/dynamsoft-capture-vision-react-native) of Dynamsoft Barcode Reader SDK.
+In this guide, we will guide you to develop a barcode scanning app with the [`Foundational APIs`](https://pub.dev/documentation/dynamsoft_capture_vision_flutter/latest/) of Dynamsoft Barcode Reader SDK.
 
 ## Supported Barcode Symbologies
 
@@ -79,7 +79,7 @@ LicenseManager.initLicense('DLS2eyJvcmdhbml6YXRpb25JRCI6IjIwMDAwMSJ9').then((dat
 > [!NOTE]
 >
 >- The license string here grants a time-limited free trial which requires network connection to work.
->- You can request a 30-day trial license via the [Request a Trial License](https://www.dynamsoft.com/customer/license/trialLicense?product=dcv&utm_source=guide&package=mobile) link.
+>- You can request a 30-day trial license via the [Request a Trial License](https://www.dynamsoft.com/customer/license/trialLicense?product=dbr&utm_source=guide&package=mobile) link.
 
 ### Implement Barcode Scanning from Video Stream
 

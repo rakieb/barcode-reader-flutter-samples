@@ -1,6 +1,6 @@
 # Dynamsoft Barcode Reader Flutter Samples
 
-This repository contains multiple samples that show you how use the Dynamsoft Capture Vision Flutter SDK.
+This repository contains multiple samples that show you how use the Dynamsoft Barcode Reader Flutter SDK.
 
 ## Requirements
 
@@ -83,15 +83,10 @@ Open the **workspace**(!) `ios/Runner.xcworkspace` in Xcode and adjust the *Sign
 >- You can request a 30-day trial license via
    the [Request a Trial License](https://www.dynamsoft.com/customer/license/trialLicense?product=dbr&utm_source=guide&package=mobile) link.
 
-## Request Dynamsoft Trial License Key
+## License
 
-- You can request a 30-day trial license via
-  the [Request a Trial License](https://www.dynamsoft.com/customer/license/trialLicense?product=dbr&utm_source=github&package=mobile) link.
+- You can request a 30-day trial license via the [Request a Trial License](https://www.dynamsoft.com/customer/license/trialLicense?product=dbr&utm_source=github&package=mobile) link.
 
 ## Support
 
 https://www.dynamsoft.com/company/contact/
-
-## License
-
-[Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0)

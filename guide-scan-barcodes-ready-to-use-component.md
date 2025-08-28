@@ -1,6 +1,6 @@
 # BarcodeScanner Integration Guide
 
-In this guide, we will guide you to develop a barcode scanning app with the [`BarcodeScanner`](https://dynamsoft.github.io/barcode-reader-flutter-samples/APIReferences/dynamsoft-barcode-reader-bundle-flutter/dynamsoft-barcode-reader-bundle-flutter/) component.
+In this guide, we will guide you to develop a barcode scanning app with the [`BarcodeScanner`](https://pub.dev/documentation/dynamsoft_barcode_reader_bundle_flutter/latest/) component.
 
 We provide `BarcodeScanner` APIs, which is a ready-to-use component that allows developers to quickly set up a barcode scanning app.
 With the built-in component, it streamlines the integration of barcode scanning functionality into any application.
@@ -82,7 +82,7 @@ void _launchBarcodeScanner() async{
 ```
 
 You can call the above function anywhere (e.g., when the app starts, on a button click, etc.) to achieve the effect: 
-open a barcode scanning interface, and after scanning is complete (with `BarcodeScanConfig.scanningMode` determining whether a single barcode or multiple barcodes are captured), 
+open a barcode scanning interface, and after scanning is complete (with `BarcodeScannerConfig.scanningMode` determining whether a single barcode or multiple barcodes are captured), 
 close the interface and return the result. Following is the simplest example of how to use the `_launchBarcodeScanner` function:
 
 ```dart
@@ -126,7 +126,7 @@ class _MyHomePageState extends State<MyHomePage> {
 >- You can request a 30-day trial license via the [Request a Trial License](https://www.dynamsoft.com/customer/license/trialLicense?product=dbr&utm_source=guide&package=mobile) link.
 
 ### Barcode Scan Result
-Also see it in the [BarcodeScanResult](https://dynamsoft.github.io/barcode-reader-flutter-samples/APIReferences/dynamsoft-barcode-reader-bundle-flutter/dynamsoft-barcode-reader-bundle-flutter/BarcodeScanResult-class.html) section of API References.
+Also see it in the [BarcodeScanResult](https://pub.dev/documentation/dynamsoft_barcode_reader_bundle_flutter/latest/dynamsoft_barcode_reader_bundle_flutter/BarcodeScanResult-class.html) section of API References.
 
 `BarcodeScanResult` structure:
 - resultStatus: The status of the barcode result, of type `EnumResultStatus`.
@@ -137,11 +137,11 @@ Also see it in the [BarcodeScanResult](https://dynamsoft.github.io/barcode-reade
 - errorString: The error message associated with the error code if an error occurs during barcode scanning process.
 - barcodes: An array of `BarcodeResultItem`.
 
-### (Optional) Change the BarcodeScanConfig to meet your needs
-Also see it in the [BarcodeScanConfig](https://dynamsoft.github.io/barcode-reader-flutter-samples/APIReferences/dynamsoft-barcode-reader-bundle-flutter/dynamsoft-barcode-reader-bundle-flutter/BarcodeScannerConfig-class.html) section of API References.
+### (Optional) Change the BarcodeScannerConfig to meet your needs
+Also see it in the [BarcodeScannerConfig](https://pub.dev/documentation/dynamsoft_barcode_reader_bundle_flutter/latest/dynamsoft_barcode_reader_bundle_flutter/BarcodeScannerConfig-class.html) section of API References.
 ```dart
 
-const config = BarcodeScanConfig(
+const config = BarcodeScannerConfig(
   
   ///The license key required to initialize the BarcodeScanner.
   license: "DLS2eyJvcmdhbml6YXRpb25JRCI6IjIwMDAwMSJ9", //The license string here grants a time-limited free trial which requires network connection to work.
@@ -234,7 +234,7 @@ The full sample code is available [here](./ScanBarcodes_ReadyToUseComponent).
 
 ## License
 
-- You can request a 30-day trial license via the [Request a Trial License](https://www.dynamsoft.com/customer/license/trialLicense?product=mrz&utm_source=github&package=mobile) link.
+- You can request a 30-day trial license via the [Request a Trial License](https://www.dynamsoft.com/customer/license/trialLicense?product=dbr&utm_source=github&package=mobile) link.
 
 ## Contact
 
